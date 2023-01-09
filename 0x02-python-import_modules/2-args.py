@@ -7,7 +7,7 @@ def main():
         for index in range(len(args[1:])):
             print('{}: {}'.format(index + 1, args[index + 1]))
     else:
-        print('{} arguments.'.format(len(args) - 1))
+        print('{} argument.'.format(len(args) - 1))
 
 
 if __name__ == "__main__":
