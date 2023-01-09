@@ -5,5 +5,4 @@ def element_at(my_list, idx):
         return None
     if idx >= ls_len:
         return None
-
     return my_list[idx]
